@@ -1,0 +1,28 @@
+#@rect,^root(apps),100,70,42,42,2,left,top,#000000 0,#000000 0,
+@icon,,0,0,470,0,0,left,top,#e6e6e6 200,#444444 200,/home/yoel/.config/jgmenu/Fondo_Menu/MarcoMenu02.png
+
+
+
+# Icon 1
+#@rect,^root(fav),25,40,42,42,2,left,top,#000000 0,#000000 0,
+#@icon,,30,45,32,32,2,left,top,#e6e6e6 100,#444444 90,/usr/share/icons/breeze/actions/32/bookmark-new.svg
+
+# Icon 2
+#@rect,^root(apps),85,40,42,42,2,left,top,#000000 0,#000000 0,
+#@icon,,90,45,32,32,2,left,top,#e6e6e6 100,#444444 90,/usr/share/icons/breeze/actions/32/view-list-icons.svg
+
+# Icon 3
+#@rect,^root(history),145,40,42,42,2,left,top,#000000 0,#000000 0,
+#@icon,,150,45,32,32,2,left,top,#e6e6e6 100,#444444 90,/usr/share/icons/breeze/actions/32/appointment-new.svg
+
+# Icon 4
+#@rect,^root(exit),205,40,42,42,2,left,top,#000000 0,#000000 0,
+#@icon,,210,45,32,32,2,left,top,#e6e6e6 100,#444444 90,/usr/share/icons/breeze/actions/32/system-log-out.svg
+
+#^tag(apps)
+
+#Chromium,chromium,chromium
+#Archivos,caja,system-file-manager
+#^sep()
+
+

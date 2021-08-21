@@ -1,0 +1,9 @@
+^sep()
+Bloquear pantalla,i3lock -c 000000,system-lock-screen
+Salir,^checkout(exit),system-shutdown
+^tag(exit)
+Suspender,systemctl -i suspend,system-log-out
+Reiniciar,systemctl -i reboot,system-reboot
+Apagar el sistema,systemctl -i poweroff,system-shutdown
+
+
