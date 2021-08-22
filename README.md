@@ -4,6 +4,22 @@ Here you can find my settings and my themes for bspwm, polybar, awesome, picom a
 
 Directory structure required for the theme, for bspwm + polybar, and AwesomeWM:
 
+.config -->>
+    
+    |__awesome
+    |   |__freedesktop
+    |   |__lain
+    |   |__themes
+    |   |__rc.lua
+    |   
+    |__bspwm
+    |__conky (optional)
+    |__dmenu
+    |__jgmenu
+    |__picom
+    |__polybar
+    |__scripts
+    |__sxhkd
 
 Recommended programs:
 
