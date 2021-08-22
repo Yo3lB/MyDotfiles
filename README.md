@@ -2,6 +2,24 @@
 Here you can find my settings and my themes for bspwm, polybar, awesome, picom and others ... Thanks !!
 
 
+Directory structure required for the theme, for bspwm + polybar, and AwesomeWM:
+
+.config
+    |__awesome
+    |   |__freedesktop
+    |   |__lain
+    |   |__themes
+    |   |__rc.lua
+    |   
+    |__bspwm
+    |__conky (optional)
+    |__dmenu
+    |__jgmenu
+    |__picom
+    |__polybar
+    |__scripts
+    |__sxhkd
+
 Recommended programs:
 
 * Dmenu2: https://aur.archlinux.org/packages/dmenu2/
@@ -40,6 +58,22 @@ local themes = {
 local chosen_theme = themes [1]
 
 By changing the number in local chosen [1] or [2] you will have a different type of window frame. The first topic is a design of mine. The second is a theme inspired by the great Matthew Farrel's Die Hard 4.0 theme ... for Emerald. I always liked it a lot and wanted to rescue it and adapt it to other environments.
+
+Remember to change the calls to the scripts that I use at the beginning according to your preferences, uncomment the ones that you do not need or according to your preferences >>> rc.lua:
+
+-- {{{ Autostart windowless processes }}} -- 
+
+-- Start config monitors
+awful.util.spawn_with_shell("/home/yoel/.config/scripts/ConfMonitor.sh")
+
+-- Start picom
+awful.util.spawn_with_shell("/home/yoel/.config/scripts/picom.sh")
+
+-- Start Nitrogen
+awful.util.spawn_with_shell("/home/yoel/.config/scripts/nitrogen.sh")
+
+-- Start Dpms
+awful.util.spawn_with_shell("/home/yoel/.config/scripts/dpms.sh")
 
 If you have any questions, you can contact me at: email.yoelbit@gmail.com or through my facebook https://www.facebook.com/yoel.bit.9 ... I hope it serves you, you adapt it to yours, break it or do what you deem most appropriate. Thanks. Greetings YB. 
 
