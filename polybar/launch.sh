@@ -29,5 +29,3 @@ fi
 #polybar BarSystem &
 
 echo "Polybar launched..."
-
-
