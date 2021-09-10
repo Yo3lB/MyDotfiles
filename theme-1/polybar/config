@@ -1,0 +1,25 @@
+#################################
+######## GLOBAL SETTINGS ########                              
+#################################
+
+[global/wm]
+locale = es_ES.UTF-8
+margin-top    = 0
+margin-bottom = 0 
+include-file  = ~/.config/polybar/modules.ini
+include-file  = ~/.config/polybar/clickable-modules.ini
+include-file  = ~/.config/polybar/bar-gui.ini
+include-file  = ~/.config/polybar/bar-system.ini
+include-file  = ~/.config/polybar/bar-gui-bottom.ini
+include-file  = ~/.config/polybar/bar-apps.ini
+
+[settings]
+screenchange-reload    = true
+throttle-output        = 5
+throttle-output-for    = 10
+throttle-input-for     = 30
+compositing-background = over
+compositing-foreground = over
+compositing-overline   = over
+compositing-underline  = over
+compositing-border     = over
